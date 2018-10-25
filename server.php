@@ -28,6 +28,7 @@
 		if (empty($password_1)) { array_push($errors, "Password is required"); }
 		
 		
+
 		$query2 = "SELECT `spot` FROM `users` WHERE `spot`='{$spot}'";
 		$results2 = mysqli_query($db, $query2);
 		if (mysqli_num_rows($results2) > 0) {
