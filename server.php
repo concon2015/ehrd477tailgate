@@ -26,7 +26,17 @@
 		if (empty($spot)) { array_push($errors, "Spot is required"); }
 		if (empty($email)) { array_push($errors, "Email is required"); }
 		if (empty($password_1)) { array_push($errors, "Password is required"); }
-
+		
+		
+		$query2=SELECT `spot` FROM `users` WHERE `spot`="$spot";
+		$results = mysqli_query($db, $query);
+		if (mysqli_num_rows($results) == 1) {
+				array_push($errors, "Spot taken! Please choose another spot.");
+				header('location: register.php');
+			}
+			
+			
+		
 		if ($password_1 != $password_2) {
 			array_push($errors, "The two passwords do not match");
 		}
