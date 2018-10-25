@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Registration system PHP and MySQL</title>
+	<title>EHRD 477 Tailgate Registration</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
