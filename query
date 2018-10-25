@@ -1,7 +1,0 @@
-SELECT spot FROM `users` WHERE `username` = 'test'
-
-
-
-SELECT  *
-FROM    availablespots
-WHERE   aspots NOT IN (SELECT spot FROM users)
