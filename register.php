@@ -1,5 +1,5 @@
 <?php include('server.php')
- incluse('credentials.php')?>
+ include('credentials.php')?>
 <!DOCTYPE html>
 <html>
 <head>
