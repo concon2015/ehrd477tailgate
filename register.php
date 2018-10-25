@@ -1,4 +1,5 @@
-<?php include('server.php') ?>
+<?php include('server.php')
+ incluse('credentials.php')?>
 <!DOCTYPE html>
 <html>
 <head>
