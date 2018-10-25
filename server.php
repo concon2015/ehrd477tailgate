@@ -29,7 +29,7 @@
 		
 		
 		$query2 = "SELECT 'spot' FROM `users` WHERE `spot` = '{$spot}'";
-		$results = mysqli_query($db, $query);
+		$results = mysqli_query($db, $query2);
 		if (mysqli_num_rows($results) == 1) {
 				array_push($errors, "Spot taken! Please choose another spot.");
 				header('location: register.php');
