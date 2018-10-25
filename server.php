@@ -1,6 +1,7 @@
 <?php
+	include('credentials.php')
 	session_start();
-
+	
 	// variable declaration
 	$username = "";
 	$email    = "";
@@ -9,7 +10,7 @@
 	$_SESSION['success'] = "";
 
 	// connect to database
-	$db = mysqli_connect('localhost', 'connor', 'tailgate', 'registration');
+	
 
 	// REGISTER USER
 	if (isset($_POST['reg_user'])) {
