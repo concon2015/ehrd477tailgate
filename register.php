@@ -11,7 +11,8 @@
 		<h2>Register</h2>
 	</div>
 	<center><img src="ReedOverview.PNG" alt="Reed Overview" width="500" height="333"></center>
-	<center><a href="LotA.PNG"><img src="LotA.PNG" class="img" alt="Lot A"  width="200" height="150"></a><a href="LotB.PNG"><img src="LotB.PNG" class="img" alt="Lot B"  width="200" height="150"></a><a href="LotC.PNG"><img src="LotC.PNG" class="img" alt="Lot C"  width="200" height="150"></a><a href="LotD.PNG"><img src="LotD.PNG" class="img" alt="Lot D"  width="200" height="150"></a><a href="LotE.PNG"><img src="LotE.PNG" class="img" alt="Lot E"  width="200" height="150"></a><a href="LotE.PNG"><img src="LotF.PNG" class="img" alt="Lot F"  width="200" height="150"></a></center>
+	<center><a href="LotA.PNG"><img src="LotA.PNG" class="img" alt="Lot A"  width="200" height="150"></a><a href="LotB.PNG"><img src="LotB.PNG" class="img" alt="Lot B"  width="200" height="150"></a><a href="LotC.PNG"><img src="LotC.PNG" class="img" alt="Lot C"  width="200" height="150"></a></center>
+	<center><a href="LotD.PNG"><img src="LotD.PNG" class="img" alt="Lot D"  width="200" height="150"></a><a href="LotE.PNG"><img src="LotE.PNG" class="img" alt="Lot E"  width="200" height="150"></a><a href="LotE.PNG"><img src="LotF.PNG" class="img" alt="Lot F"  width="200" height="150"></a></center>
 	<form method="post" action="register.php">
 
 		<?php include('errors.php'); ?>
