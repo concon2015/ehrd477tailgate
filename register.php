@@ -11,21 +11,7 @@
 		<h2>Register</h2>
 	</div>
 	<center><img src="ReedOverview.PNG" alt="Reed Overview" width="500" height="333"></center>
-	<!-- Trigger the Modal -->
-		<img id="lotA" src="LotA.PNG" alt="Lot A" style="width:100%;max-width:300px">
-
-	<!-- The Modal -->
-		<div id="lotA_Modal" class="modal">
-
- 	 <!-- The Close Button -->
- 		 <span class="close">&times;</span>
-
- 	 <!-- Modal Content (The Image) -->
- 		 <img class="modal-content" id="img01">
-
-	  <!-- Modal Caption (Image Text) -->
-		  <div id="caption"> Lot A</div>
-	</div>
+	<center><img src="LotA.PNG" alt="Lot A" height="150"></center>
 	<form method="post" action="register.php">
 
 		<?php include('errors.php'); ?>
@@ -64,28 +50,5 @@
 			Already a member? <a href="login.php">Sign in</a>
 		</p>
 	</form>
-<script>
-// Get the modal
-var modal = document.getElementById('lotA_Modal');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('lotA');
-var modalImg = document.getElementById("lotA_Modal");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-    modal.style.display = "none";
-}
-</script>
-
 </body>
 </html>
