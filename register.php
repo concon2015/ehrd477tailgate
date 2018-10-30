@@ -11,6 +11,21 @@
 		<h2>Register</h2>
 	</div>
 	<center><img src="ReedOverview.PNG" alt="Reed Overview" width="500" height="333"></center>
+	<!-- Trigger the Modal -->
+		<img id="lotA" src="LotA.PNG" alt="Lot A" style="width:100%;max-width:300px">
+
+	<!-- The Modal -->
+		<div id="myModal" class="modal">
+
+ 	 <!-- The Close Button -->
+ 		 <span class="close">&times;</span>
+
+ 	 <!-- Modal Content (The Image) -->
+ 		 <img class="modal-content" id="img01">
+
+	  <!-- Modal Caption (Image Text) -->
+		  <div id="caption"></div>
+	</div>
 	<form method="post" action="register.php">
 
 		<?php include('errors.php'); ?>
