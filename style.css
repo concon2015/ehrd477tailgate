@@ -30,7 +30,7 @@ form, .content {
 	margin: 10px 0px 10px 0px;
 }
 
-.img:hover{
+.img:hover {
     color: #424242; 
   -webkit-transition: all .3s ease-in;
   -moz-transition: all .3s ease-in;
