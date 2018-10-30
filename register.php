@@ -11,7 +11,7 @@
 		<h2>Register</h2>
 	</div>
 	<center><img src="ReedOverview.PNG" alt="Reed Overview" width="500" height="333"></center>
-	<center><img src="LotA.PNG" alt="Lot A" height="150"></center>
+	<center><img src="LotA.PNG" alt="Lot A" height="150" /></center>
 	<form method="post" action="register.php">
 
 		<?php include('errors.php'); ?>
