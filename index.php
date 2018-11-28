@@ -27,9 +27,10 @@
 		<h2>Home Page</h2>
 	</div>
 	<div class="content">
-
+		<center><img src="Tailgate.jpeg" alt="Aggie Tailgate" width="400" height="270"></center>
 		<!-- notification message -->
 		<?php if (isset($_SESSION['success'])) : ?>
+			<center>
 			<div class="error success" >
 				<h3>
 					<?php 
@@ -47,7 +48,7 @@
 			<p>Your email is <strong><?php echo $row1['email']; ?></strong><p>
 			<p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
 		<?php endif ?>
+		</center>
 	</div>
-		
 </body>
 </html>
