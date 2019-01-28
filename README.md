@@ -8,6 +8,3 @@ This is a project for EHRD 477 that designs a system of registration for tailgat
 
 
 Project Not Currently Hosted.
-
-
-http://ehrd477.blackard.org
